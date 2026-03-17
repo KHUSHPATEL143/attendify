@@ -53,8 +53,8 @@ app.get('/api/health', (req, res) => {
   }, 'Attendify API is running');
 });
 
-// TODO: Mount route files here in later phases
-// app.use('/api/auth', require('./routes/auth.routes'));
+// Mount route files here
+app.use('/api/auth', require('./routes/authRoutes'));
 // app.use('/api/teachers', require('./routes/teacher.routes'));
 // app.use('/api/students', require('./routes/student.routes'));
 // app.use('/api/classes', require('./routes/class.routes'));

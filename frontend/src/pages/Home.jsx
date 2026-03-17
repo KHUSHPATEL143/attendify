@@ -41,13 +41,13 @@ function Home() {
             through Admin, Teacher, and Student portals.
           </p>
           <div className="hero-actions animate-fadeInUp" style={{ animationDelay: '0.3s' }}>
-            <Link to="/admin/dashboard" className="btn btn-primary">
+            <Link to="/admin/login" className="btn btn-primary">
               🔐 Admin Login
             </Link>
-            <Link to="/teacher/dashboard" className="btn btn-outline">
+            <Link to="/teacher/login" className="btn btn-outline">
               👨‍🏫 Teacher Login
             </Link>
-            <Link to="/student/dashboard" className="btn btn-outline">
+            <Link to="/student/login" className="btn btn-outline">
               🎓 Student Login
             </Link>
           </div>
@@ -106,19 +106,19 @@ function Home() {
           </h2>
           <p className="section-subtitle">Each role has secure authentication and permission-based access</p>
           <div className="portals-grid">
-            <Link to="/admin/dashboard" className="portal-card card">
+            <Link to="/admin/login" className="portal-card card">
               <div className="portal-icon-wrap admin-bg">🔐</div>
               <h3 className="portal-title">Admin Portal</h3>
               <p className="portal-desc">Full system control — manage teachers, students, classes, timetables, holidays, and generate reports.</p>
               <span className="portal-link">Login with Email & Password →</span>
             </Link>
-            <Link to="/teacher/dashboard" className="portal-card card">
+            <Link to="/teacher/login" className="portal-card card">
               <div className="portal-icon-wrap teacher-bg">👨‍🏫</div>
               <h3 className="portal-title">Teacher Portal</h3>
               <p className="portal-desc">Mark attendance, create tests, manage students, and view class schedules.</p>
               <span className="portal-link">Login with Email & Password →</span>
             </Link>
-            <Link to="/student/dashboard" className="portal-card card">
+            <Link to="/student/login" className="portal-card card">
               <div className="portal-icon-wrap student-bg">🎓</div>
               <h3 className="portal-title">Student Portal</h3>
               <p className="portal-desc">View attendance calendar, test results, timetable, and personal profile.</p>
